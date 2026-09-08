@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Kazakhstan Regional Health Indicators and PCA, 2011-2024"
+message: "If you use this repository, please cite the research project and repository."
+type: software
+authors:
+  - name: "Akezhan"
+year: 2026
+keywords:
+  - Kazakhstan
+  - principal component analysis
+  - ecological study
+  - mortality
+  - Semipalatinsk
