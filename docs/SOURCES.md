@@ -24,3 +24,10 @@ Known public metadata links used in the manuscript:
 - Disability dynamic tables: https://stat.gov.kz/en/industries/social-statistics/stat-medicine/dynamic-tables/
 
 Before journal submission, archive download dates and exact URLs for every morbidity workbook.
+
+
+## Manuscript and generated sensitivity outputs
+
+The final numerical reference is `Research paper draft 2.docx`, Word revision 3, modified 2026-09-18 20:27 UTC. Its source hash and analytical targets are recorded in `manuscript/paper_numbers.json`; see `AUDIT_NOTE.md` for the version audit. The manuscript is not redistributed here.
+
+The baseline model and 2011-2021 boundary sensitivity use the existing audited processed CSVs; no new external dataset is introduced. Shorter-period regional means, standardization, PCA, and OLS are recalculated from rows with Year <= 2021. Public source workbooks and their previously recorded metadata links are unchanged.

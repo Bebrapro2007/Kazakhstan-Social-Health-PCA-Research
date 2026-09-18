@@ -1,0 +1,22 @@
+Statistic,Value
+N exposed region-year rows,33.0
+Overall KMO,0.4932114401561532
+Bartlett chi-square,52.124382815326705
+Bartlett df,10.0
+Bartlett p-value,1.0821794713735653e-07
+KMO Cancer_pct,0.5317306215667762
+KMO Infant_mortality_pct,0.5974453404326157
+KMO Circulatory_pct,0.5930552097075041
+KMO Disability_pct,0.3740181505667412
+KMO Unemployment_pct,0.4528779344821376
+PC1 eigenvalue,2.223645777585634
+PC1 explained variance ratio,0.4312525144408502
+PC2 eigenvalue,1.617062441507156
+PC2 explained variance ratio,0.3136121098680545
+PC3 eigenvalue,0.7400703623937442
+PC3 explained variance ratio,0.1435287975551504
+PC4 eigenvalue,0.37666349755198236
+PC4 explained variance ratio,0.07304989043432385
+PC5 eigenvalue,0.1988079209614831
+PC5 explained variance ratio,0.03855668770162096
+PC1+PC2 cumulative explained variance,0.7448646243089048
