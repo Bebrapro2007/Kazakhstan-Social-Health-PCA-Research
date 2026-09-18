@@ -1,18 +1,16 @@
 # Analysis scripts
 
-## `run_analysis.py`
+- `run_analysis.py`: recomputes full-period and 2011-2021 RQ1 comparisons, exact permutation checks, exposed-only PCA, and baseline/original-indicator/PCA-reduced HC3 OLS outputs.
+- `export_workbook.py`: exports the analytical CSV values to the existing result workbook sheet structure, appending shorter-period outputs.
+- `make_figures.py`: regenerates figures from CSVs and embeds the plotted source-file hashes.
+- `verify_results.py`: checks manuscript precision, independently reconstructed fit metrics, CSV/Excel agreement, and figure source hashes.
 
-Regenerates all RQ1 and RQ2 CSV result tables from `data/processed/rq1_all_regions_audited.csv`.
-
-## `make_figures.py`
-
-Regenerates PNG figures from the result tables.
-
-Run from the repository root:
+Run from the repository root after installing `requirements.txt`:
 
 ```bash
 python analysis/run_analysis.py
 python analysis/make_figures.py
+python analysis/verify_results.py
 ```
 
-The scripts intentionally keep mortality outside PCA. `Mortality_pct` is the observed dependent variable for OLS.
+Mortality is the observed dependent variable and remains outside PCA. The shorter-period scaler and PCA are refit using only 2011-2021 observations.

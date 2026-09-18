@@ -1,0 +1,794 @@
+{
+  "manuscript": {
+    "filename": "Research paper draft 2.docx",
+    "title": "Regional Health and Social Indicator Patterns and PCA-Based Mortality Modeling in Kazakhstan, 2011–2024",
+    "sha256": "67a877c9fa843ada673b0b1662e2effad0a30b6a73d550cc0c1d695d4bc2dbb8",
+    "revision": 3,
+    "modified_utc": "2026-09-18T20:27:00+00:00",
+    "scope": "All reported empirical table values and PCA/model diagnostics; historical and reference publication dates are outside this analytical check."
+  },
+  "checks": [
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "Exposed_mean_of_region_means",
+      "expected": 0.2932,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "Comparison_mean_of_region_means",
+      "expected": 0.2259,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.0673,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "Exact_permutation_p_region_means",
+      "expected": 0.2,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "Exposed_mean_of_region_means",
+      "expected": 0.8715,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "Comparison_mean_of_region_means",
+      "expected": 0.9162,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0447,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "Exact_permutation_p_region_means",
+      "expected": 0.6,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "Exposed_mean_of_region_means",
+      "expected": 2.6673,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "Comparison_mean_of_region_means",
+      "expected": 2.473,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.1943,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "Exact_permutation_p_region_means",
+      "expected": 0.6,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "Exposed_mean_of_region_means",
+      "expected": 4.1861,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "Comparison_mean_of_region_means",
+      "expected": 3.9418,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.2443,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "Exact_permutation_p_region_means",
+      "expected": 0.8,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "Exposed_mean_of_region_means",
+      "expected": 4.8362,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "Comparison_mean_of_region_means",
+      "expected": 4.8857,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0496,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_group_comparison.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "Exact_permutation_p_region_means",
+      "expected": 0.5,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Cancer_pct",
+        "Period": "2011-2024"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.0673,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Cancer_pct",
+        "Period": "2011-2021"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.0619,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct",
+        "Period": "2011-2024"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0447,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct",
+        "Period": "2011-2021"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0251,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Circulatory_pct",
+        "Period": "2011-2024"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.1943,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Circulatory_pct",
+        "Period": "2011-2021"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.1264,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Disability_pct",
+        "Period": "2011-2024"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.2443,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Disability_pct",
+        "Period": "2011-2021"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": 0.0646,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Unemployment_pct",
+        "Period": "2011-2024"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0496,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq1_boundary_sensitivity.csv",
+      "where": {
+        "Indicator": "Unemployment_pct",
+        "Period": "2011-2021"
+      },
+      "column": "Difference_exposed_minus_comparison",
+      "expected": -0.0182,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "PC1_component_coefficient",
+      "expected": -0.45,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Cancer_pct"
+      },
+      "column": "PC2_component_coefficient",
+      "expected": -0.389,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "PC1_component_coefficient",
+      "expected": 0.513,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Infant_mortality_pct"
+      },
+      "column": "PC2_component_coefficient",
+      "expected": -0.027,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "PC1_component_coefficient",
+      "expected": -0.465,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Circulatory_pct"
+      },
+      "column": "PC2_component_coefficient",
+      "expected": -0.193,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "PC1_component_coefficient",
+      "expected": -0.081,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Disability_pct"
+      },
+      "column": "PC2_component_coefficient",
+      "expected": 0.838,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "PC1_component_coefficient",
+      "expected": 0.558,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_component_coefficients.csv",
+      "where": {
+        "Indicator": "Unemployment_pct"
+      },
+      "column": "PC2_component_coefficient",
+      "expected": -0.329,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "Parameters",
+      "expected": 4.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "R2",
+      "expected": 0.084,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "Adjusted_R2",
+      "expected": 0.0116,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "RMSE",
+      "expected": 0.1023,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "AIC",
+      "expected": -64.29,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "BIC",
+      "expected": -57.34,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Baseline - Region + Year"
+      },
+      "column": "N",
+      "expected": 42.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "Parameters",
+      "expected": 9.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "R2",
+      "expected": 0.3112,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "Adjusted_R2",
+      "expected": 0.1443,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "RMSE",
+      "expected": 0.0887,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "AIC",
+      "expected": -66.27,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "BIC",
+      "expected": -50.63,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "N",
+      "expected": 42.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "Parameters",
+      "expected": 6.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "R2",
+      "expected": 0.2639,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "Adjusted_R2",
+      "expected": 0.1617,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "RMSE",
+      "expected": 0.0917,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "AIC",
+      "expected": -69.48,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "BIC",
+      "expected": -59.05,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "N",
+      "expected": 42.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "N exposed region-year rows"
+      },
+      "column": "Value",
+      "expected": 42.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "Overall KMO"
+      },
+      "column": "Value",
+      "expected": 0.5099,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "Bartlett chi-square"
+      },
+      "column": "Value",
+      "expected": 75.56,
+      "decimals": 2,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "Bartlett df"
+      },
+      "column": "Value",
+      "expected": 10.0,
+      "decimals": 0,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "PC1 explained variance ratio"
+      },
+      "column": "Value",
+      "expected": 49.18,
+      "decimals": 2,
+      "multiplier": 100
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "PC2 explained variance ratio"
+      },
+      "column": "Value",
+      "expected": 26.03,
+      "decimals": 2,
+      "multiplier": 100
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "PC1+PC2 cumulative explained variance"
+      },
+      "column": "Value",
+      "expected": 75.21,
+      "decimals": 2,
+      "multiplier": 100
+    },
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "KMO Disability_pct"
+      },
+      "column": "Value",
+      "expected": 0.216,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "R2",
+      "expected": 0.5015,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_model_comparison.csv",
+      "where": {
+        "Model": "Before PCA - 5 original indicators"
+      },
+      "column": "RMSE",
+      "expected": 0.0782,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "R2",
+      "expected": 0.4714,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_model_comparison.csv",
+      "where": {
+        "Model": "After PCA - PC1 + PC2"
+      },
+      "column": "RMSE",
+      "expected": 0.0805,
+      "decimals": 4,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "Overall KMO"
+      },
+      "column": "Value",
+      "expected": 0.493,
+      "decimals": 3,
+      "multiplier": 1
+    },
+    {
+      "table": "rq2_pre2022_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "N exposed region-year rows"
+      },
+      "column": "Value",
+      "expected": 33.0,
+      "decimals": 0,
+      "multiplier": 1
+    }
+  ],
+  "inequalities": [
+    {
+      "table": "rq2_pca_diagnostics.csv",
+      "where": {
+        "Statistic": "Bartlett p-value"
+      },
+      "column": "Value",
+      "operator": "<",
+      "expected": 0.001
+    }
+  ],
+  "ordering": [
+    {
+      "table": "rq2_pre2022_model_comparison.csv",
+      "columns": [
+        "AIC",
+        "BIC"
+      ],
+      "lower_model": "After PCA - PC1 + PC2",
+      "higher_model": "Before PCA - 5 original indicators"
+    }
+  ]
+}
